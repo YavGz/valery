@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: aliceblue;
+  background-color: #2b2b44;
+  border: solid 1px #fff;
+}
+
+/* cabecera --- */
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav, nav ul {
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  list-style: none;
+}
+
+/* --- cabecera  */
+
+/* Lateral */
+.textura_lateral {
+  position: absolute;
+  width: 105px;
+  height: 1080px;
+  background-color: aquamarine;
+}
+main {
+  width: 1411px;
+  position: relative;
+  left: 105px;
+  justify-items: center;
+  padding: 2%;
+}
+
+
+.intro {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.intro .nombre  {
+  font-size: 50px ;
+}
+
+.carrusel_contenedor {
+  width: 700px;
+  height: fit-content;
+  background-color: rgb(254, 139, 97);
+}
+
+.carrusel {
+  display: flex;
+  height: 400px;
+  width: 650px;
+  padding: 0.5%;
+  margin: auto 30px;
+  align-items: center;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+/* .carrusel::-webkit-scrollbar {
+  display: initial;
+  width: 8px;
+} */
+
+
+
+.carrusel .slide {
+  display: inline-block;
+  scroll-snap-align: center;
+  border: none;
+}
+
+.carrusel  img {
+  width: 320px;
+  height: auto;
+  background-color: azure;
+  margin: 0 25px;
+
+}
+
+
+
