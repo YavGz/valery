@@ -109,10 +109,6 @@ main {
 .main_index {
   background-image: url('./assets/images/index/fondo_index.jpg');
 }
-.main_panda {
-  background-image: url('./assets/images/panda/fondo_panda-7233125.jpg');
-}
-
 
 .intro {
   display: flex;
@@ -181,3 +177,70 @@ article {
 }
 
 
+/* Panda --- */
+.main_panda {
+  background-image: url('./assets/images/panda/fondo_panda-7233125.jpg');
+}
+
+.main_panda section {
+  margin: 2% 0;
+}
+
+.main_panda section:nth-child(1){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_panda section:nth-child(1) article {
+  width: 900px;
+  height: 300px ;
+}
+
+.main_panda section:nth-child(1) picture {
+  display: flex;
+  width: 350px;
+  height: 300px;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px #000;
+}
+
+.main_panda section:nth-child(1) img {
+  width: 600px;
+}
+
+.main_panda article {
+  margin: 0;
+}
+
+.main_panda section:nth-child(2) {
+  padding-top: 50px;
+}
+.main_panda section:nth-child(2) article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_panda section:nth-child(2) p{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.main_panda section:nth-child(2) picture {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  top: 00px;
+  right: 45px;
+  transform: rotate(-10deg);
+}
+.main_panda section:nth-child(2) img{
+  width: 250px;
+}
+
+
+
+/* --- panda  */
