@@ -257,7 +257,24 @@ article {
 .main_panda .carrusel img{
   width: 300px;
 }
-
-
-
 /* --- panda  */
+
+
+/* Entrevista --- */
+.intro_entrevista {
+  display: grid;
+  grid-template-columns: 40px 500px 1fr;
+}
+.intro_entrevista div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro_entrevista div:nth-child(1) {
+  width: 40px;
+  height: 500px;
+  padding: 2%;
+  flex-direction: column;
+  background-color: #CB8D55;
+}
+
+/* --- Entrevista */
