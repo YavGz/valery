@@ -89,9 +89,6 @@ nav li {
 .textura_index {
   background-image: url('./assets/images/index/lateral_index.jpg');
 }
-.textura_panda {
-  background-image: url('./assets/images/panda/pexels-maria-firman-10567383.jpg');
-}
 
 main {
   width: 1411px;
@@ -182,6 +179,13 @@ article {
   background-image: url('./assets/images/panda/fondo_panda-7233125.jpg');
 }
 
+.textura_panda {
+  height: 1625px;
+  background-position: top;
+  background-size: 500px;
+  background-image: url('./assets/images/panda/pexels-maria-firman-10567383.jpg');
+}
+
 .main_panda section {
   margin: 2% 0;
 }
@@ -239,6 +243,19 @@ article {
 }
 .main_panda section:nth-child(2) img{
   width: 250px;
+}
+
+.carrusel_panda {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.carrusel_panda img {
+  width: 400px;
+}
+
+.main_panda .carrusel img{
+  width: 300px;
 }
 
 
