@@ -2,10 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  color: aliceblue;
-  background-color: #2b2b44;
-  border: solid 1px #fff;
+  font-family: 'Alice', serif;
 }
 
 /* cabecera --- */
@@ -15,6 +12,10 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: #CB8D55;
+}
+header a {
+  color: #fff;
 }
 nav, nav ul {
   width: 350px;
@@ -25,21 +26,32 @@ ul {
   list-style: none;
 }
 
+
 /* --- cabecera  */
 
 /* Lateral */
 .textura_lateral {
   position: absolute;
   width: 105px;
-  height: 1080px;
-  background-color: aquamarine;
+  height: 1320px;
+  background-image: url('./assets/images/index/lateral_index.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
 }
 main {
   width: 1411px;
   position: relative;
   left: 105px;
   justify-items: center;
-  padding: 2%;
+  justify-content: center;
+  padding: 4% 4% 0;
+
+  background-image: url('./assets/images/index/fondo_index.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  color: #000;
 }
 
 
@@ -57,16 +69,26 @@ main {
 
 .carrusel_contenedor {
   width: 700px;
+  padding: 10px;
   height: fit-content;
-  background-color: rgb(254, 139, 97);
+  background-color: rgba(225, 225, 225,0.7);
+  border-radius: 20px;
+}
+
+.carrusel2_contenedor {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 .carrusel {
   display: flex;
-  height: 400px;
+  height: 410px;
   width: 650px;
   padding: 0.5%;
-  margin: auto 30px;
+  margin: 0 auto;
   align-items: center;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -94,5 +116,8 @@ main {
 
 }
 
+article {
+  padding: 4% 0;
+}
 
 
