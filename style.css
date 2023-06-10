@@ -1,8 +1,13 @@
+:root {
+  --Troch: 'Trochut', cursive;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Alice', serif;
+  font-size: 20px;
 }
 
 /* cabecera --- */
@@ -12,7 +17,6 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #CB8D55;
 }
 header a {
   color: #fff;
@@ -23,6 +27,38 @@ header a:hover {
   cursor: pointer;
 }
 
+
+.header_index {
+  background-color: #CB8D55;
+}
+.header_panda nav,
+.header_entrevista nav{
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.header_panda nav {
+  background-size: 1920px;
+  background-image: url('./assets/images/panda/pexels-pramod-tiwari-16016205.jpg');
+}
+
+.header_entrevista {
+  background-size: 1000px;
+  background-position: left;
+  background-image: url('./assets/images/entrevista/pexels-imdat-akgün-16070540.jpg');
+}
+
+.header_panda nav ul:nth-child(1) li,
+.header_entrevista nav ul:nth-child(1) li{
+  font-family: var(--Troch);
+  font-size: 26px;
+} 
+
 nav, nav ul {
   width: 350px;
   display: flex;
@@ -30,6 +66,12 @@ nav, nav ul {
 }
 ul {
   list-style: none;
+}
+nav li {
+  width: 115%;
+  border-radius: 10px;
+  padding: 2% 8%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -40,11 +82,17 @@ ul {
   position: absolute;
   width: 105px;
   height: 1320px;
-  background-image: url('./assets/images/index/lateral_index.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
 }
+.textura_index {
+  background-image: url('./assets/images/index/lateral_index.jpg');
+}
+.textura_panda {
+  background-image: url('./assets/images/panda/pexels-maria-firman-10567383.jpg');
+}
+
 main {
   width: 1411px;
   position: relative;
@@ -53,11 +101,16 @@ main {
   justify-content: center;
   padding: 2% 4%;
 
-  background-image: url('./assets/images/index/fondo_index.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
   color: #000;
+}
+.main_index {
+  background-image: url('./assets/images/index/fondo_index.jpg');
+}
+.main_panda {
+  background-image: url('./assets/images/panda/fondo_panda-7233125.jpg');
 }
 
 
@@ -70,7 +123,7 @@ main {
 }
 
 .intro .nombre  {
-  font-family: ;
+  font-family: var(--Troch);
   font-size: 50px ;
 }
 
@@ -106,25 +159,18 @@ main {
   scroll-snap-type: x proximity;
 }
 
-/* .carrusel::-webkit-scrollbar {
-  display: initial;
-  width: 8px;
-} */
-
-
-
 .carrusel .slide {
   display: inline-block;
   scroll-snap-align: center;
   border: none;
 }
-
+  
 .carrusel  img {
-  width: 320px;
-  height: auto;
-  background-color: azure;
-  margin: 0 25px;
-
+    width: 320px;
+    height: auto;
+    background-color: azure;
+    margin: 0 25px;
+    box-shadow: 1px 1px 10px 1px #000;
 }
 
 article {
