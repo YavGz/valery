@@ -16,7 +16,13 @@ header {
 }
 header a {
   color: #fff;
+  text-decoration: none;
 }
+header a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 nav, nav ul {
   width: 350px;
   display: flex;
