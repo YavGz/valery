@@ -51,7 +51,7 @@ main {
   left: 105px;
   justify-items: center;
   justify-content: center;
-  padding: 4% 4% 0;
+  padding: 2% 4%;
 
   background-image: url('./assets/images/index/fondo_index.jpg');
   background-size: cover;
@@ -70,6 +70,7 @@ main {
 }
 
 .intro .nombre  {
+  font-family: ;
   font-size: 50px ;
 }
 
@@ -77,23 +78,27 @@ main {
   width: 700px;
   padding: 10px;
   height: fit-content;
-  background-color: rgba(225, 225, 225,0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
 }
 
 .carrusel2_contenedor {
+  width: fit-content;
   display: flex;
   justify-self: center;
   justify-content: center;
-  padding: 0 auto;
+  padding: 1% 2%;
   margin: 0 auto;
+  
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
 }
 
 .carrusel {
   display: flex;
-  height: 410px;
+  height: auto;
   width: 650px;
-  padding: 0.5%;
+  padding: 2%;
   margin: 0 auto;
   align-items: center;
   overflow-x: scroll;
@@ -123,7 +128,10 @@ main {
 }
 
 article {
-  padding: 4% 0;
+  padding: 2% 2%;
+  background-color:  rgba(255, 255, 255, 0.7);
+  margin: 5% 0;
+  border-radius: 20px;
 }
 
 
