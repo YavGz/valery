@@ -337,8 +337,15 @@ article {
   width: 550px;
 }
 
+.entrevista article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px;
+  text-align: left;
+}
+
 .texto_entrevista article {
-  margin: 80px 0;
+  margin: 60px 0 20px;
   position: relative;
 }
 .texto_entrevista p{
