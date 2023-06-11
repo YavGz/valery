@@ -80,7 +80,7 @@ nav li {
 }
 /* --- cabecera  */
 
-/* Lateral */
+/* Lateral --- */
 .textura_lateral {
   position: absolute;
   width: 9vw;
@@ -89,9 +89,14 @@ nav li {
   background-position: center;
   background-repeat: repeat;
 }
+
 .textura_index {
   background-image: url('./assets/images/index/lateral_index.jpg');
 }
+
+/* --- lateral  */
+
+
 
 main {
   width: 90vw;
@@ -106,6 +111,14 @@ main {
   background-repeat: repeat;
   color: #000;
 }
+
+article {
+  padding: 2% 2%;
+  background-color:  rgba(255, 255, 255, 0.7);
+  margin: 5% 0;
+  border-radius: 20px;
+}
+
 .main_index {
   background-image: url('./assets/images/index/fondo_index.jpg');
 }
@@ -169,12 +182,28 @@ main {
   box-shadow: 1px 1px 10px 1px #000;
 }
 
-article {
-  padding: 2% 2%;
-  background-color:  rgba(255, 255, 255, 0.7);
-  margin: 5% 0;
-  border-radius: 20px;
+.presentacion p{
+  position: relative;
+  padding-left: 2%;
 }
+.presentacion p img {
+  width: 200px;
+  position: absolute;
+  top: 10%;
+  left: -15%;
+}
+
+.estatua {
+  position: relative;
+  padding-right: 10%;
+}
+.estatua img{
+  width: 300px;
+  position: absolute;
+  top: -10%;
+  right: -8%;
+}
+
 
 
 /* Panda --- */
