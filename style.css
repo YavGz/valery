@@ -274,7 +274,7 @@ article {
 .textura_entrevista {
   background-size: 300px;
   background-repeat: repeat;
-  height: 2444px;
+  height: 2845px;
   background-image: url('./assets/images/entrevista/pexels-imdat-akgün-16070540.jpg');
 }
 
@@ -391,8 +391,19 @@ article {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 20px;
 }
-.grid_fotos img {
+
+.grid_fotos picture {
+  display: flex;
   width: 100%;
+  height: 250px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: top ;
+}
+
+.grid_fotos img {
+  width: 500px;
+  height: fit-content;
   margin: 0 auto;
 }
 /* --- Entrevista */
