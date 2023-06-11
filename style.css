@@ -261,11 +261,22 @@ article {
 
 
 /* Entrevista --- */
+.body_entrevista {
+  overflow-x: hidden;
+}
 .main_entrevista {
   padding: 4%;
-  background-size: 110%;
-  background-position: bottom;
+  /* width: calc(100% - 105px); */
+  margin-right: 0;
+  background-size: 100%;
+  background-position: center;
   background-image: url('./assets/images/entrevista/fondo_entrevista.jpg');
+}
+.textura_entrevista {
+  background-size: 300px;
+  background-repeat: repeat;
+  height: 2444px;
+  background-image: url('./assets/images/entrevista/pexels-imdat-akgün-16070540.jpg');
 }
 
 .intro_entrevista {
@@ -361,4 +372,21 @@ article {
   transform: rotate(-55deg);
 }
 
+.grid_fotos {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  display: grid;
+  grid-template:
+  auto auto / 1fr 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 4%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+.grid_fotos img {
+  width: 100%;
+  margin: 0 auto;
+}
 /* --- Entrevista */
