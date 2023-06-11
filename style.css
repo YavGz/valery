@@ -10,11 +10,14 @@
   font-size: 20px;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 /* cabecera --- */
 
 header {
-  width: 100%;
+  width: 99vw;
   height: 50px;
   display: flex;
   justify-content: flex-end;
@@ -80,7 +83,7 @@ nav li {
 /* Lateral */
 .textura_lateral {
   position: absolute;
-  width: 10%;
+  width: 9vw;
   height: 1320px;
   background-size: cover;
   background-position: center;
@@ -91,9 +94,9 @@ nav li {
 }
 
 main {
-  width: 90%;
+  width: 90vw;
   position: relative;
-  left: 10%;
+  left: 9vw;
   justify-items: center;
   justify-content: center;
   padding: 2% 4%;
@@ -261,9 +264,7 @@ article {
 
 
 /* Entrevista --- */
-/* .body_entrevista {
-  overflow-x: hidden;
-} */
+
 .main_entrevista {
   padding: 4%;
   background-size: 100%;
