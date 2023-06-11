@@ -328,16 +328,37 @@ article {
 }
 
 .texto_entrevista article {
+  margin: 80px 0;
   position: relative;
 }
 .texto_entrevista p{
-  padding-right: 20%;
+  padding-top: 1%;
+  padding-right: 14%;
   margin: 10px 0;
 }
 
 .texto_entrevista img {
   position: absolute;
+}
+
+.pasaporte {
+  width: 250px;
+  right: 0;
+  top: -100px;
+}
+
+.pasaporte_cerrado {
+  width: 250px;
+  right: -60px;
+  top: 60px;
+  transform: rotate(-20deg);
+}
+
+.avion {
   width: 200px;
+  right: 250px;
+  bottom: -100px;
+  transform: rotate(-55deg);
 }
 
 /* --- Entrevista */
