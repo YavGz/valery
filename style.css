@@ -65,7 +65,7 @@ header a:hover {
 } 
 
 nav, nav ul {
-  width: 350px;
+  width: 450px;
   display: flex;
   justify-content: space-evenly;
 }
